@@ -11,7 +11,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("best_model(1).pkl")
+model = joblib.load("best_model.pkl")
 encoder = joblib.load("encoder.pkl")
 
 st.title("💳 Loan Payment Difficulty Prediction")
