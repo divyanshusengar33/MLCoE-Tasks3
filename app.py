@@ -25,6 +25,6 @@ if st.button("Predict"):
     prediction = model.predict(X)[0]
 
     if prediction == 1:
-        st.error("⚠️ Payment Difficulty")
+        st.error(" Payment Difficulty")
     else:
-        st.success("✅ No Payment Difficulty")
+        st.success(" No Payment Difficulty")
